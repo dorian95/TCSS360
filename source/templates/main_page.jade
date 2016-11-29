@@ -6,11 +6,18 @@ block content
 		.main-page
 			.form
 				form.select-form
-					button Add Student
+					button(onclick="add_move(); return false;") Add Student
 					button Edit Student
 					button Delete Student
 					button Student Report
 					button Data Report
 					button Lookup Student
+					// A script to call the next page upon credential verification.
+script.
+	function add_move() {
+
+		window.location.href = '/add_student'
+
+	}  
 
 
