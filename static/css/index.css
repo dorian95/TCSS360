@@ -1,10 +1,16 @@
 @import url("https&://fonts&.googleapis&.com/css?family=Roboto&:300");
 .header {
-  padding: 5% 0 0;
+  background: url("https://www.washington.edu/studyabroad/files/2015/02/Cherries.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.header .page-title {
+  padding: 5% 0 5%;
   font-family: "Roboto", sans-serif;
   text-align: center;
   text-transform: uppercase;
   color: #fff;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 .login-page {
   width: 360px;
