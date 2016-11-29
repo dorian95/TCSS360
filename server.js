@@ -1,12 +1,17 @@
+// This is the driver for the web app. It runs the server as well as conatins information
+// on the individual views the web app has.
+
+// Variables for building the enviroment
 var express = require('express')
   , logger = require('morgan')
   , app = express()
   , template = require('jade').compileFile(__dirname + '/source/templates/homepage.jade')
-  , template2 = require('jade').compileFile(__dirname + '/source/templates/login.jade')
+  , template2 = require('jade').compileFile(__dirname + '/source/templates/main_page.jade')
 
 app.use(logger('dev'))
 app.use(express.static(__dirname + '/static'))
 
+// The login page
 app.get('/', function (req, res, next) {
   try {
     var html = template({ title: 'Home' })
@@ -16,6 +21,8 @@ app.get('/', function (req, res, next) {
   }
 })
 
+
+// Page after teh login page
 app.get('/newpage', function (req, res, next) {
   try {
     var html = template2({ title: 'Home' })
