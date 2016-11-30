@@ -1,9 +1,4 @@
 @import url("https&://fonts&.googleapis&.com/css?family=Roboto&:300");
-.header {
-  background: url("https://www.washington.edu/studyabroad/files/2015/02/Cherries.jpg");
-  background-size: cover;
-  background-position: center;
-}
 .header .page-title {
   padding: 5% 0 5%;
   font-family: "Roboto", sans-serif;
@@ -42,7 +37,7 @@
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: #4caf50;
+  background: #4b2e83;
   width: 100%;
   border: 0;
   padding: 15px;
@@ -67,7 +62,7 @@
 .form button:hover,
 .form button:active,
 .form button:focus {
-  background: #43a047;
+  background: #b7a57a;
 }
 .container {
   position: relative;
@@ -112,11 +107,11 @@
   color: #fff;
 }
 body {
-  background: #76b852;
-  background: -webkit-linear-gradient(right, #76b852, #8dc26f);
-  background: -moz-linear-gradient(right, #76b852, #8dc26f);
-  background: -o-linear-gradient(right, #76b852, #8dc26f);
-  background: linear-gradient(to left, #76b852, #8dc26f);
+  background: #4b2e83;
+  background: -webkit-linear-gradient(right, #4b2e83, #b7a57a);
+  background: -moz-linear-gradient(right, #4b2e83, #b7a57a);
+  background: -o-linear-gradient(right, #4b2e83, #b7a57a);
+  background: linear-gradient(to left, #4b2e83, #b7a57a 70%);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
