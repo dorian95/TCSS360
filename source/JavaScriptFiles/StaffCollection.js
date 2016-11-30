@@ -10,5 +10,6 @@
 	}
 	
 	function add(Staff) {
-	// if added succesfully - return true
+		// if added succesfully - return true
+		return true;
 	}

@@ -12,4 +12,5 @@
 	
 	function addJob(job) {
 		// if job set - return true
+		return true;
 	}

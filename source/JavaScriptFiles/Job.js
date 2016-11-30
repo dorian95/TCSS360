@@ -1,8 +1,8 @@
 /**
 		Class that represents a Job in the system.
-		@
-		Author: Nursultan Irgaliyev
-		Date: 11/30/2016
+		
+		@author: Nursultan Irgaliyev
+		@date: 11/30/2016
 		
 **/
 
@@ -15,7 +15,7 @@ param employer
 		@param fullTime
 		@param jobTitle
 **/
-	function Job (employer, salary, startDate, endDate, skills, fullTime, jobTitle) {
+	function Job(employer, salary, startDate, endDate, skills, fullTime, jobTitle) {
 		this.employer = employer;
 		this.salary = salary;
 		this.startDate = endDate;
@@ -28,6 +28,6 @@ param employer
 		method to set endDate
 		@param endDate endDate to set 
 	**/
-	function setEndDate (endDate) {
+	function setEndDate(endDate) {
 		this.endDate = endDate;
 	}
