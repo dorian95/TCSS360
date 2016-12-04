@@ -1,20 +1,23 @@
 /**
 	A class to represent Staff
-	
-	@author Nursultan Irgaliyev
-	@date 11/30/2016
+	Author: Nursultan Irgaliyev
+	Date: 11/30/2016
 **/
 
-	Staff = function(userName, password, staffID, accessLevel) {
-		this.userName = userName;
-		this.password = password;
-		this.staffID = staffID;
-		this.accessLevel = accessLevel;
-	}
+//imports 
+var mysql = require('mysql');
 	
-	function registerUser(userName, password, staffID) {
-		var newUser = new Staff();
-		newUser.userName = name;
-		newUser.password = password;
-		newUser.staffID = staffID;
-	}
+var connection = mysql.createConnection({
+	host     : 'cssgate.insttech.washington.edu',
+	user     : '_360team11',
+	password : 'HifOot',
+	database : '_360team11',
+});
+	
+//test connection 
+connection.connect(function(err) {  
+	if (err) { console.log(err);};
+});
+	
+	
+connection.end();
